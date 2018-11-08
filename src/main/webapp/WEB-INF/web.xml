@@ -19,7 +19,7 @@
         </servlet-class>
         <init-param>
             <param-name>javax.ws.rs.Application</param-name>
-            <param-value>com.FutureGadgetParkingLot.app.ParkingApplication</param-value>
+            <param-value>com.FutureGadgetParkingLot.app.HelloApplication</param-value>
         </init-param>
     </servlet>
 
