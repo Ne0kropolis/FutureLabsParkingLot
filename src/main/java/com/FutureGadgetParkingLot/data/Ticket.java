@@ -1,5 +1,7 @@
 package com.FutureGadgetParkingLot.data;
 
+import java.sql.Date;
+import java.sql.Time;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
@@ -11,7 +13,7 @@ public class Ticket {
     private String timeOut;
     private double price;
 
-    public Ticket () {}
+    Ticket(int pricing_id, int lot_id, Date ticket_date, Time ticket_time_in, Time ticket_time_out, double price) {}
 
     public Ticket(int ticketId, int lotId, LocalDateTime date, String timeIn, String timeOut, double price) {
         this.ticketId = ticketId;

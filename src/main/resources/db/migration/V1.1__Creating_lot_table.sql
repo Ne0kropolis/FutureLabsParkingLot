@@ -1,10 +1,9 @@
 CREATE TABLE Lot (
-  lot_id INT NOT NULL,
-  pricing_id INT,
-  lot_name VARCHAR(255),
-  lot_address VARCHAR(255),
-  lot_capacity INT,
+  Lot_id INT NOT NULL,
+  Pricing_id INT,
+  Lot_name VARCHAR(255),
+  Lot_address VARCHAR(255),
+  Lot_capacity INT,
 
-  PRIMARY KEY (lot_id),
-  FOREIGN KEY (pricing_id) REFERENCES PRICING(pricing_id)
+  PRIMARY KEY (Lot_id)
 );

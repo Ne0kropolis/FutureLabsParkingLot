@@ -1,0 +1,6 @@
+CREATE TABLE LOTPRICING (
+  Lot_id INT NOT NULL,
+  Pricing_id INT NOT NULL,
+
+  CONSTRAINT Pk_LOTPRICNG PRIMARY KEY (Lot_id, Pricing_id)
+);
