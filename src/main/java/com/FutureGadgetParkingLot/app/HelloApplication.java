@@ -11,7 +11,7 @@ public class HelloApplication extends Application {
     private Set<Object> singletons = new HashSet<>();
     public HelloApplication() {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
-        singletons.add(ctx.getBean("restService", HelloRestService.class));
+        singletons.add(ctx.getBean("helloRestService", HelloRestService.class));
     }
 
     @Override
