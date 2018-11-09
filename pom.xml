@@ -101,8 +101,7 @@
                 <version>3.6</version>
                 <configuration>
                     <rulesets>
-                        <ruleset>codeanalysis/pmd/basic_excluding_deprecated.xml</ruleset>
-                        <ruleset>codeanalysis/pmd/unnecessary_excluding_uselessparentheses.xml</ruleset>
+                        <ruleset>codeanalysis/basic_pmd_config.xml</ruleset>
                     </rulesets>
                 </configuration>
             </plugin>
